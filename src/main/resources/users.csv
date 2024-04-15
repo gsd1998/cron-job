@@ -1,0 +1,6 @@
+id,firstName,lastName,email,gender,ipAddress
+1,fname1,lname1,name1@gmail.com,Non-binary,32.241.244.236
+2,fname2,lname2,name2@gmail.com,Male,237.139.240.151
+3,fname3,lname3,name3@gmail.int,Female,78.27.60.255
+4,fname4,lname4,name4@gmail.fr,Male,12.217.30.111
+5,fname5,lname5,name5@gmail-manage.com,Female,27.139.240.151
