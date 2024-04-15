@@ -33,7 +33,7 @@ public class MailSenderService {
         MimeMessage mimeMessage = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
 
-        System.out.println(report.length);
+        //System.out.println(report.length);
 
         helper.setTo(toMail);
         helper.setFrom(fromMail);

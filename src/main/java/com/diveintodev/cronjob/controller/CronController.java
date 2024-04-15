@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CronController {
 
+    /*
     @Autowired
     private CronService cronService;
 
@@ -15,5 +16,6 @@ public class CronController {
     public String sendMail() {
         return cronService.generateReportAndSendMail();
     }
+    */
 
 }

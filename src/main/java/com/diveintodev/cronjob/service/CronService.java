@@ -19,8 +19,8 @@ public class CronService {
     @Autowired
     private ReportService reportService;
 
-    @Scheduled(cron = "0 0/2 * * * ?")
-    public String generateReportAndSendMail() {
+    //@Scheduled(cron = "0 0/2 * * * ?")
+    public void generateReportAndSendMail() {
 
         String output = "";
         log.info("Generating report and sending mail");
@@ -40,7 +40,7 @@ public class CronService {
             log.error("Failed to send mail");
         }
         log.info("report generation and mail sending successfully completed");
-        return output;
+        //return output;
     }
 
 }
